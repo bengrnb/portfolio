@@ -110,13 +110,14 @@ h3 {
         padding: 10px;
     }
     .home-body {
-        margin:20px;
+        margin: 20px;
         height: 30%;
     }
     .home-nav {
       flex-direction: column;
       margin:20px;
       margin-top: 0px;
+      height: 70%;
     }
     .home-about {
         margin-right: 0px;
