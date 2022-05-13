@@ -69,7 +69,7 @@ contact.addEventListener('touchend', function(){
     contact.style.backgroundColor='#955BA5';
     contact.style.color='White';
 })
-contact.addEventListener('popstate', function(){
+window.addEventListener('popstate', function(){
     contactImg.src = "./images/hexagon.svg";
     contact.style.backgroundColor='#955BA5';
     contact.style.color='White';
