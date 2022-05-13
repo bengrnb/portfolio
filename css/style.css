@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 img {
     padding-bottom: 20px;
 }
