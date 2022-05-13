@@ -24,3 +24,5 @@ contact.addEventListener('mouseover', function(){
 contact.addEventListener('mouseout', function(){
     contactImg.src = "./images/hexagon.svg"
 })
+
+// might need to add more to this so that it works a little better on mobile when pressing
