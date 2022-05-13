@@ -1,0 +1,140 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.homepage {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #E3E3E3;
+}
+.home-body {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.home-header {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-header h3 {
+    padding-top: 10px;
+}
+.home-nav {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    align-items: stretch;
+    border-radius: 20px;
+}
+.home-about {
+    width: 33vw;
+    margin-right: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #4EBA6F;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+
+}
+.home-portfolio {
+    width: 33vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2D95BF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+
+}
+.home-contact {
+    width: 33vw;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #955BA5;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+}
+.home-about:hover {
+    color: black;
+    background-color: white;
+}
+.home-portfolio:hover {
+    color: black;
+    background-color: white;
+}
+.home-contact:hover {
+    color: black;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .home-header {
+        padding: 10px;
+    }
+    .home-body {
+        margin:20px;
+        height: 30%;
+    }
+    .home-nav {
+      flex-direction: column;
+      margin:20px;
+      margin-top: 0px;
+    }
+    .home-about {
+        margin-right: 0px;
+        width: 100%;
+        flex-grow: 1;
+        margin-bottom: 20px;
+    }
+    .home-portfolio {
+        width: 100%;
+        flex-grow: 1;
+    }
+    .home-contact {
+        margin-left: 0px;
+        width: 100%;
+        flex-grow: 1;
+        margin-top: 20px;
+    }
+    img {
+        width: 10vh;
+    }
+  }
