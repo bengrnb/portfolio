@@ -21,6 +21,11 @@ about.addEventListener('touchend', function(){
     about.style.backgroundColor='#4EBA6F';
     about.style.color='White';
 })
+about.addEventListener('click', function(){
+    aboutImg.src = "./images/ellipse.svg";
+    about.style.backgroundColor='#4EBA6F';
+    about.style.color='White';
+})
 
 let portfolio = document.querySelector(".home-portfolio")
 let portfolioImg = document.querySelector("#portfolio-image");
@@ -41,6 +46,11 @@ portfolio.addEventListener('touchstart', function(){
     portfolio.style.color='Black';
 })
 portfolio.addEventListener('touchend', function(){
+    portfolioImg.src = "./images/triangle.svg";
+    portfolio.style.backgroundColor='#2D95BF';
+    portfolio.style.color='White';
+})
+portfolio.addEventListener('click', function(){
     portfolioImg.src = "./images/triangle.svg";
     portfolio.style.backgroundColor='#2D95BF';
     portfolio.style.color='White';
