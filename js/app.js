@@ -6,6 +6,12 @@ about.addEventListener('mouseover', function(){
 about.addEventListener('mouseout', function(){
     aboutImg.src = "./images/ellipse.svg"
 })
+about.addEventListener('touchstart', function(){
+    aboutImg.src = "./images/ellipse_hover.svg"
+})
+about.addEventListener('touchend', function(){
+    aboutImg.src = "./images/ellipse.svg"
+})
 
 let portfolio = document.querySelector(".home-portfolio")
 let portfolioImg = document.querySelector("#portfolio-image");
