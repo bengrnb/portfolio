@@ -228,7 +228,7 @@ nav {
     padding-left: 10vw;
     padding-right: 10vw;
     background-color: white;
-    margin: 50px;
+    margin: 20px;
     margin-bottom: 0px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -247,9 +247,9 @@ nav h3 {
 .information {
     height: 90%;
     min-height: 800px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding-left: 10vw;
     padding-right: 10vw;
     background-color: white;
@@ -268,13 +268,6 @@ nav h3 {
         flex-direction: column;
         margin: 20px;
         margin-bottom: 0px;
-    }
-    .information {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        padding-left: 5vw;
-        padding-right: 5vw;
     }
     nav img {
         padding-top: 20px;
