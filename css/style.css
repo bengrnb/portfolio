@@ -269,6 +269,10 @@ nav h3 {
         margin: 20px;
         margin-bottom: 0px;
     }
+    .information{
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
     nav img {
         padding-top: 20px;
     }
