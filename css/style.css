@@ -204,7 +204,7 @@ p {
         flex-grow: 1;
         margin-top: 20px;
     }
-    img {
+    .homepage.img {
         width: 10vw;
     }
   }
@@ -260,8 +260,34 @@ nav h3 {
 }
 .education {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.education h4, .education h3 {
+    font-weight: normal;
+}
+.school {
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.school img {
+    max-height: 60px;
+}
+.education img {
+    padding-bottom: 0px;
+}
+.education h4 {
+    margin: 0em;
+}
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+    margin-top: 20px;
 }
 @media only screen and (max-width: 750px) {
     nav {
@@ -275,6 +301,12 @@ nav h3 {
     }
     nav img {
         padding-top: 20px;
+    }
+    .school {
+        width: 100vw;
+    }
+    .education {
+        flex-direction: row;
     }
 
 }
