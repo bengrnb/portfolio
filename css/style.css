@@ -61,25 +61,21 @@ h6 {
     margin-right: 0;
     font-weight: bold;
 }
-
 p {
     margin-bottom: 0.875em;
 }
 .homepage h1 {
     margin: 0px;
-    font-size: 2em;
     font-weight: bold;
     text-align: center;
 }
 .homepage h2 {
     margin: 0px;
-    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
 }
 .homepage h3 {
     margin: 0px;
-    font-size: 1.17em;
     font-weight: bold;
 }
 .homepage h4 {
@@ -89,12 +85,10 @@ p {
 }
 .homepage h5 {
     margin: 0px;
-    font-size: .83em;
     font-weight: bold;
 }
 .homepage h6 {
     margin: 0px;
-    font-size: .67em;
     font-weight: bold;
 }
 .homepage {
@@ -278,7 +272,7 @@ nav h3 {
 .education img {
     padding-bottom: 0px;
 }
-.education h4 {
+.education p {
     margin: 0em;
 }
 #headshot {
