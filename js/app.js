@@ -1,4 +1,4 @@
-let about = document.querySelector(".home-about")
+let about = document.querySelector(".home-about");
 let aboutImg = document.querySelector("#about-image");
 
 about.addEventListener('mouseover', function(){
