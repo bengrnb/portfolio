@@ -329,7 +329,7 @@ nav h3 {
     .education {
         flex-direction: row;
     }
-    #download {
+    .download {
         width: inherit;
     }
 
