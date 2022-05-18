@@ -350,8 +350,8 @@ nav h3 {
 }
 .contact-page {
     display: flex;
-    height: 100vh;
     flex-direction: column;
+    min-height: 100vh;
     background-color: #955BA5;
 }
 .contact_body {
