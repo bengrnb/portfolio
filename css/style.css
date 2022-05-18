@@ -348,19 +348,13 @@ nav h3 {
     align-items: center;
     justify-content: center;
 }
-.contact-page {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #955BA5;
-}
 .contact_body {
-    flex-grow: 2;
+    height: calc(100vh - 140px);
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 800px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -392,7 +386,7 @@ nav h3 {
         margin: 20px;
         margin-bottom: 0px;
     }
-    .information, .contact_info{
+    .information{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -407,5 +401,17 @@ nav h3 {
     }
     .download {
         width: inherit;
+    }
+    .contact_body {
+        height: calc(100vh - 181.02px);
+    }
+    .contact_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact_content img{
+        padding-right: 0px;
     }
 }
