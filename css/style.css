@@ -4,6 +4,9 @@
 a {
     text-decoration: none;
 }
+nav a, nav a:link, nav a:visited, nav a:hover, nav a:active {
+    color: black;
+}
 img {
     padding-bottom: 20px;
 }
@@ -207,13 +210,23 @@ body {
 body.about {
     background-color: #4EBA6F;
 }
+body.portfolio {
+    background-color: #2D95BF;
+}
+body.contact {
+    background-color: #955BA5;
+}
 .about-page {
     display: flex;
     flex-direction: column;
     background-color: #4EBA6F;
 }
+.portfolio-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #2D95BF;
+}
 nav {
-    height: 10%;
     min-height: 100px;
     display: flex;
     justify-content: space-between;
@@ -225,8 +238,23 @@ nav {
     margin-bottom: 0px;
     border-radius: 20px 20px 0px 0px;
 }
-.active {
+#about_active {
     text-decoration: underline solid #4EBA6F 3px;
+}
+.about_nav:hover {
+    text-decoration: underline solid #4EBA6F 2px;
+}
+#portfolio_active {
+    text-decoration: underline solid #2D95BF 3px;
+}
+.portfolio_nav:hover {
+    text-decoration: underline solid #2D95BF 2px;
+}
+#contact_active {
+    text-decoration: underline solid #955BA5 3px;
+}
+.contact_nav:hover {
+    text-decoration: underline solid #955BA5 2px;
 }
 nav img {
     padding-bottom: 0px;
@@ -238,7 +266,6 @@ nav h3 {
     display: flex;
 }
 .information {
-    height: 90%;
     min-height: 800px;
     margin-left: 20px;
     margin-right: 20px;
@@ -248,7 +275,7 @@ nav h3 {
     background-color: white;
     border-radius: 0px 0px 20px 20px;
 }
-.information h1 {
+.information h1, .contact_body h1 {
     text-align: center;
 }
 .education {
@@ -321,13 +348,51 @@ nav h3 {
     align-items: center;
     justify-content: center;
 }
+.contact-page {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #955BA5;
+}
+.contact_body {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+.contact_info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_content img{
+    padding: 0px;
+    padding-right: 20px;
+    height: 40px;
+}
 @media only screen and (max-width: 750px) {
     nav {
         flex-direction: column;
         margin: 20px;
         margin-bottom: 0px;
     }
-    .information{
+    .information, .contact_info{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -343,5 +408,4 @@ nav h3 {
     .download {
         width: inherit;
     }
-
 }
