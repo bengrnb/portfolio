@@ -317,6 +317,7 @@ nav h3 {
 }
 .logos {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
