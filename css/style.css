@@ -396,11 +396,9 @@ nav h3 {
 .portfolio-page img {
     border-radius: 20px;
     padding-bottom: 0px;
-    max-width: 40vw;
-    /* max-width: 700px; */
     margin-top: 10px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 8px 0px rgba(45, 149, 191, 1);
+    box-shadow: 0px 0px 8px 0px rgba(227, 227, 227, 1);
 }
 .highlighted-container {
     display: flex;
