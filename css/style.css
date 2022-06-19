@@ -435,12 +435,12 @@ nav h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    padding-top: 0px;
 }
 /* img height should be 480px */
 .project-image img {
     height: 100%;
-    padding: 20px;
-    padding-bottom: 0px;
     border-radius: 20px;
 }
 .project-text {
@@ -449,7 +449,6 @@ nav h3 {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    padding-bottom: 0px;
 }
 .project-text h2 {
     color: black;
