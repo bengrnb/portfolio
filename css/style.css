@@ -384,10 +384,6 @@ nav h3 {
     text-align: center;
 }
 /* ------------------------------------------------- */
-#skinny {
-    padding-left: 30px;
-    padding-right: 30px;
-}
 #blue {
     background-color: #2D95BF;
     box-shadow: 0px 0px 8px 0px rgba(45, 149, 191, 1);
@@ -408,11 +404,20 @@ nav h3 {
     background-color: #f0c419;
     box-shadow: 0px 0px 8px 0px rgba(240, 196, 25, 1);
 }
+#gray {
+    background-color: #E3E3E3;
+    box-shadow: 0px 0px 8px 0px rgba(227, 227, 227, 1);
+}
+#white {
+    background-color: white;
+    /* box-shadow: 0px 0px 8px 0px rgba(45, 149, 191, 1); */
+}
 .project-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
 }
 .project {
     display: flex;
@@ -420,8 +425,8 @@ nav h3 {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    /* height: 400px; */
-    height: 50vh;
+    max-width: 900px;
+    height: 30vh;
     min-height: 400px;
     border-radius: 20px;
 }
@@ -447,24 +452,9 @@ nav h3 {
     padding-bottom: 0px;
 }
 .project-text h2 {
-    color: white;
+    color: black;
     text-align: center;
     font-weight: normal;
-}
-@media only screen and (max-width: 750px) {
-    .project-container {
-        grid-template-columns: 1fr;
-    }
-    .project {
-        height: 40vh;
-    }
-    .project-text {
-        padding-bottom: 20px;
-    }
-    #skinny {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 }
 @media only screen and (max-width: 750px) {
     nav {
@@ -500,9 +490,38 @@ nav h3 {
     .contact_content img{
         padding-right: 0px;
     }
+    .project-text {
+        padding-bottom: 20px;
+    }
+    .project {
+        height: 20vh;
+    }
 }
 @media only screen and (max-width: 380px) {
     .contact_content h2 {
         font-size: 1.17em;
     }
+}
+
+/* ----Modernize */
+body.about {
+    background-color: white;
+}
+body.portfolio {
+    background-color: white;
+}
+body.contact {
+    background-color: white;
+}
+.about-page{
+    background-color: white;
+}
+.portfolio-page{
+    background-color: white;
+}
+.download {
+    box-shadow: none;
+}
+.homepage {
+    background-color: white;
 }
