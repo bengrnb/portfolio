@@ -200,7 +200,7 @@ p {
         flex-grow: 1;
         margin-top: 20px;
     }
-    .homepage.img {
+    .homepage img {
         width: 10vw;
     }
   }
@@ -393,14 +393,41 @@ nav h3 {
     background-color: white;
     border-radius: 0px 0px 20px 20px;
 }
-.portfolio-page img {
-    border-radius: 20px;
-    padding-bottom: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 1300px;
-    box-shadow: 0px 0px 8px 0px rgba(227, 227, 227, 1);
+
+/* start of new format */
+.project-container h1, .project-container h2, .project-container h3, .project-container h4 {
+    text-align: left;
 }
+.project-container h4 {
+    font-weight: normal;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    max-width: 1300px;
+    background-color: #E3E3E3;
+    border-radius: 20px 20px 20px 20px;
+}
+.project-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+    width: 50vw;
+}
+.project-image img{
+    padding: 30px;
+    padding-right: 10vw;
+    height: 100%;
+}
+/* end of new format */
+
+
+/* might not need the highlighed container */
 .highlighted-container {
     display: flex;
     flex-wrap: wrap;
