@@ -456,6 +456,10 @@ nav h3 {
     .project-text {
         padding-bottom: 20px;
     }
+    #skinny {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 @media only screen and (max-width: 750px) {
     nav {
