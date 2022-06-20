@@ -424,10 +424,10 @@ nav h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
-    max-width: 900px;
-    height: 30vh;
-    min-height: 400px;
+    /* width: 100%;
+    max-width: 900px; */
+    /* height: 30vh; */
+    /* min-height: 500px; */
     border-radius: 20px;
 }
 .project-image {
@@ -435,13 +435,12 @@ nav h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    /* padding-top: 0px; */
 }
 /* img height should be 480px */
 .project-image img {
-    height: 100%;
-    border-radius: 20px;
+    width: 900px;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 0px;
 }
 .project-text {
     height: 20%;
@@ -454,7 +453,7 @@ nav h3 {
 .project-text h3 {
     color: black;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
 }
 @media only screen and (max-width: 750px) {
     nav {
@@ -491,10 +490,10 @@ nav h3 {
         padding-right: 0px;
     }
     .project-text {
-        padding-bottom: 20px;
+        width: auto;
     }
-    .project {
-        height: 20vh;
+    .project-image {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 380px) {
