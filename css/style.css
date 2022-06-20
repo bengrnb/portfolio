@@ -410,7 +410,7 @@ nav h3 {
 }
 #white {
     background-color: white;
-    /* box-shadow: 0px 0px 8px 0px rgba(45, 149, 191, 1); */
+    box-shadow: 0px 0px 8px 0px rgba(174, 174, 174, 1);
 }
 .project-container {
     display: flex;
