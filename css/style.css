@@ -431,12 +431,12 @@ nav h3 {
     border-radius: 20px;
 }
 .project-image {
-    height: 70%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    padding-top: 0px;
+    /* padding-top: 0px; */
 }
 /* img height should be 480px */
 .project-image img {
@@ -444,13 +444,14 @@ nav h3 {
     border-radius: 20px;
 }
 .project-text {
-    height: 30%;
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    border-radius: 20px 20px 0 0px;
 }
-.project-text h2 {
+.project-text h3 {
     color: black;
     text-align: center;
     font-weight: normal;
@@ -464,7 +465,6 @@ nav h3 {
     .information{
         padding-left: 0px;
         padding-right: 0px;
-        /* changed from having padding at 20 px for both of the values */
     }
     nav img {
         padding-top: 20px;
