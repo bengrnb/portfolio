@@ -140,10 +140,9 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: #4EBA6F;
-    box-shadow: 0px 0px 8px 0px rgba(78, 186, 111, 1);
-
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(174, 174, 174, 1);
 }
 .home-portfolio {
     width: 33vw;
@@ -152,10 +151,9 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: #2D95BF;
-    box-shadow: 0px 0px 8px 0px rgba(45, 149, 191, 1);
-
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(174, 174, 174, 1);
 }
 .home-contact {
     width: 33vw;
@@ -165,9 +163,9 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: #955BA5;
-    box-shadow: 0px 0px 8px 0px rgba(149, 91, 165, 1);
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(174, 174, 174, 1);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -414,46 +412,45 @@ nav h3 {
 }
 .project-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    row-gap: 50px;
+    /* flex-direction: column; */
+    row-gap: 40px;
+    column-gap: 40px;
 }
 .project {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
-    /* width: 100%;
-    max-width: 900px; */
-    /* height: 30vh; */
-    /* min-height: 500px; */
+    width: 500px;
+    height: 500px;
     border-radius: 20px;
-}
-.project-image {
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
 }
 /* img width should be 900 and height 500 */
-.project-image img {
-    width: 900px;
-    border-radius: 0 0 20px 20px;
-    padding-bottom: 0px;
+#CAPS {
+    background-image: url("../images/portfolio_images/caps_bg.svg");
+    color: white;
 }
-.project-text {
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 20px 20px 0 0px;
+#SPACES {
+    background-image: url("../images/portfolio_images/spaces_bg.svg");
+    color: white;
 }
-.project-text h3 {
-    color: black;
-    text-align: center;
-    font-weight: bold;
+#CAH  {
+    background-image: url("../images/portfolio_images/cah_bg.svg");
+    color: white;
+}
+#CDL {
+    background-image: url("../images/portfolio_images/cromaine_bg.svg");
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 400px;
+        height: 400px;
+    }
 }
 @media only screen and (max-width: 750px) {
     nav {
@@ -488,12 +485,6 @@ nav h3 {
     }
     .contact_content img{
         padding-right: 0px;
-    }
-    .project-text {
-        width: auto;
-    }
-    .project-image {
-        width: 100%;
     }
 }
 @media only screen and (max-width: 380px) {
