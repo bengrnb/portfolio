@@ -1,11 +1,11 @@
 <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect width="500" height="500" fill="white"/>
 <rect width="500" height="500" fill="#955BA5"/>
-<rect x="41" y="250" width="300" height="185" fill="url(#pattern0)"/>
-<rect x="341" y="194" width="119" height="241" fill="url(#pattern1)"/>
+<rect x="58" y="260.077" width="274.336" height="172.041" fill="url(#pattern0)"/>
+<rect x="332.335" y="208" width="110.664" height="224.118" fill="url(#pattern1)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_366_369" transform="translate(-0.134171 -0.0681693) scale(0.000339674 0.000549753)"/>
+<use xlink:href="#image0_366_369" transform="translate(-0.153394 -0.0681693) scale(0.000345431 0.000549753)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_366_369" transform="translate(-1.7082 -0.145022) scale(0.00137314 0.000680626)"/>
