@@ -451,6 +451,9 @@ nav h3 {
         width: 400px;
         height: 400px;
     }
+    #CAPS, #SPACES, #CAH, #CDL {
+        background-size: 400px;
+    }
 }
 @media only screen and (max-width: 750px) {
     nav {
