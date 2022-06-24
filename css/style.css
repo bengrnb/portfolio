@@ -30,6 +30,12 @@ h2 {
     margin-right: 0;
     font-weight: bold;
 }
+.h2_first {
+    margin-top: .83em;
+}
+.contact_body h2 {
+    margin-top: .83em;
+}
 h3 {
     display: block;
     font-size: 1.17em;
@@ -360,9 +366,6 @@ nav h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.contact_content h2 {
-    margin-top: .83em;
 }
 .contact_content img{
     padding: 0px;
