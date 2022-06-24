@@ -66,7 +66,9 @@ h6 {
     font-weight: bold;
 }
 p {
-    margin-bottom: 0.875em;
+    font-weight: 400;
+    margin-bottom: 3em;
+    font-size: 1em;
 }
 .homepage h1 {
     margin: 0px;
@@ -100,7 +102,7 @@ p {
     height: 100vh;
     width: 100vw;
     flex-direction: column;
-    background-color: #E3E3E3;
+    background-color: white;
 }
 .home-body {
     height: 25%;
@@ -110,7 +112,6 @@ p {
     align-items: stretch;
     margin: 50px;
     background-color: white;
-    border-radius: 20px;
 }
 .home-header {
     flex-grow: 1;
@@ -131,7 +132,6 @@ p {
     margin-right: 50px;
     margin-bottom: 50px;
     align-items: stretch;
-    border-radius: 20px;
 }
 .home-about {
     width: 33vw;
@@ -204,26 +204,7 @@ p {
     }
   }
 body {
-    background-color: #E3E3E3;
-}
-body.about {
-    background-color: #4EBA6F;
-}
-body.portfolio {
-    background-color: #2D95BF;
-}
-body.contact {
-    background-color: #955BA5;
-}
-.about-page{
-    display: flex;
-    flex-direction: column;
-    background-color: #4EBA6F;
-}
-.portfolio-page {
-    display: flex;
-    flex-direction: column;
-    background-color: #2D95BF;
+    background-color: white;
 }
 nav {
     min-height: 100px;
@@ -235,7 +216,6 @@ nav {
     background-color: white;
     margin: 20px;
     margin-bottom: 0px;
-    border-radius: 20px 20px 0px 0px;
 }
 #about_active {
     text-decoration: underline solid #4EBA6F 3px;
@@ -265,14 +245,19 @@ nav h3 {
     display: flex;
 }
 .information {
+    display: flex;
+    flex-direction: column;
     min-height: 800px;
-    margin-left: 20px;
-    margin-right: 20px;
+    max-width: 940px;
     margin-bottom: 20px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
-    border-radius: 0px 0px 20px 20px;
+}
+.portfolio {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    max-width: none;
 }
 .information h1, .contact_body h1 {
     text-align: center;
@@ -283,6 +268,7 @@ nav h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    column-gap: 50px;
 }
 .education h4, .education h3, .information h3 {
     font-weight: normal;
@@ -360,7 +346,6 @@ nav h3 {
     padding-left: 10vw;
     padding-right: 10vw;
     background-color: white;
-    border-radius: 0px 0px 20px 20px;
 }
 .contact_info {
     flex-grow: 1;
@@ -378,9 +363,6 @@ nav h3 {
     padding: 0px;
     padding-right: 20px;
     height: 40px;
-}
-.portfolio-page .information h2 {
-    text-align: center;
 }
 /* ------------------------------------------------- */
 .blue {
@@ -432,6 +414,7 @@ nav h3 {
     padding: 20px;
     background-position: center;
 }
+
 /* img width should be 900 and height 500 */
 #CAPS {
     background-image: url("../images/portfolio_images/caps_bg.svg");
@@ -503,27 +486,4 @@ nav h3 {
     .contact_content h2 {
         font-size: 1.17em;
     }
-}
-
-/* ----Modernize */
-body.about {
-    background-color: white;
-}
-body.portfolio {
-    background-color: white;
-}
-body.contact {
-    background-color: white;
-}
-.about-page{
-    background-color: white;
-}
-.portfolio-page{
-    background-color: white;
-}
-.download {
-    box-shadow: none;
-}
-.homepage {
-    background-color: white;
 }
