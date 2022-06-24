@@ -361,6 +361,9 @@ nav h3 {
     justify-content: center;
     align-items: center;
 }
+.contact_content h2 {
+    margin-top: .83em;
+}
 .contact_content img{
     padding: 0px;
     padding-right: 20px;
