@@ -23,7 +23,8 @@ h1 {
 h2 {
     display: block;
     font-size: 1.5em;
-    margin-top: 0.83em;
+    margin-top: 2em;
+    /* margin-top: 0.83em; */
     margin-bottom: 0.83em;
     margin-left: 0;
     margin-right: 0;
@@ -67,7 +68,6 @@ h6 {
 }
 p {
     font-weight: 400;
-    margin-bottom: 3em;
     font-size: 1em;
 }
 .homepage h1 {
@@ -419,23 +419,24 @@ nav h3 {
 
 /* img width should be 900 and height 500 */
 #CAPS {
+    background-color: #f15a5a;
     background-image: url("../images/portfolio_images/caps_bg.svg");
     color: white;
 }
 #SPACES {
+    background-color: #4EBA6F;
     background-image: url("../images/portfolio_images/spaces_bg.svg");
     color: white;
 }
 #CAH  {
+    background-color: #955BA5;
     background-image: url("../images/portfolio_images/cah_bg.svg");
     color: white;
 }
 #CDL {
+    background-color: #2D95BF;
     background-image: url("../images/portfolio_images/cromaine_bg.svg");
     color: white;
-}
-#CAPS:hover, #SPACES:hover, #CAH:hover, #CDL:hover {
-    background-size: 520px;
 }
 @media only screen and (max-width: 600px) {
     .project {
