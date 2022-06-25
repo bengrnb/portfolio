@@ -249,7 +249,7 @@ nav h3 {
 .portfolio {
     padding-left: 5vw;
     padding-right: 5vw;
-    max-width: none;
+    max-width: 1500px;
 }
 .contact_body h1 {
     text-align: center;
