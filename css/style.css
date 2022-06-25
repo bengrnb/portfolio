@@ -5,12 +5,12 @@
 }
 .color-theme {
     background-color: #011F26;
-    color: #A5A692;
+    color: #BFB78F;
 }
 a {
     text-decoration: none;
 }
-nav a, nav a:link, nav a:visited, nav a:hover, nav a:active {
+a, a:link, a:visited, a:hover, a:active {
     color: #BFB78F;
 }
 img {
@@ -78,7 +78,7 @@ h6 {
     font-weight: bold;
 }
 p {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1em;
 }
 /* can delete the unused classes below */
@@ -145,7 +145,8 @@ p {
     align-items: stretch;
 }
 .home-about {
-    width: 33vw;
+    width: 50vw;
+    /* width: 33vw; */
     margin-right: 50px;
     border-radius: 20px;
     display: flex;
@@ -155,7 +156,7 @@ p {
     border: #BFB78F 2px solid;
 }
 .home-portfolio {
-    width: 33vw;
+    width: 50vw;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -163,7 +164,7 @@ p {
     justify-content: center;
     border: #BFB78F 2px solid;
 }
-.home-contact {
+/* .home-contact {
     width: 33vw;
     margin-left: 50px;
     border-radius: 20px;
@@ -172,7 +173,7 @@ p {
     align-items: center;
     justify-content: center;
     border: #BFB78F 2px solid;
-}
+} */
 
 @media only screen and (max-width: 1000px) {
     .home-header {
@@ -229,6 +230,7 @@ nav img {
 }
 nav h3 {
     margin: 20px;
+    font-weight: normal;
 }
 .nav-items {
     display: flex;
@@ -237,7 +239,7 @@ nav h3 {
     display: flex;
     flex-direction: column;
     min-height: 800px;
-    max-width: 940px;
+    max-width: 1000px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
