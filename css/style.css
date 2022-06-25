@@ -278,7 +278,7 @@ nav h3 {
     text-align: center;
     column-gap: 50px;
 }
-.education h4, .education h3, .information h3 {
+.education h4, .education h3, .information h3, .information h5 {
     font-weight: normal;
 }
 .school {
@@ -409,6 +409,9 @@ nav h3 {
     /* flex-direction: column; */
     row-gap: 40px;
     column-gap: 40px;
+}
+.project-container h5 {
+    margin-top: 0px;
 }
 .project {
     display: flex;
