@@ -267,7 +267,7 @@ nav h3 {
     padding-right: 5vw;
     max-width: none;
 }
-.information h1, .contact_body h1 {
+.contact_body h1 {
     text-align: center;
 }
 .education {
@@ -434,14 +434,14 @@ nav h3 {
     background-image: url("../images/portfolio_images/spaces_bg.svg");
     color: white;
 }
-#CAH  {
+#CDL {
     background-color: #955BA5;
-    background-image: url("../images/portfolio_images/cah_bg.svg");
+    background-image: url("../images/portfolio_images/cromaine_bg.svg");
     color: white;
 }
-#CDL {
+#CAH  {
     background-color: #2D95BF;
-    background-image: url("../images/portfolio_images/cromaine_bg.svg");
+    background-image: url("../images/portfolio_images/cah_bg.svg");
     color: white;
 }
 @media only screen and (max-width: 600px) {
