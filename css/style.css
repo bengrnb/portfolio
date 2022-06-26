@@ -175,40 +175,6 @@ p {
     border: #BFB78F 2px solid;
 } */
 
-@media only screen and (max-width: 1000px) {
-    .home-header {
-        padding: 10px;
-    }
-    .home-body {
-        margin: 20px;
-        height: 30%;
-    }
-    .home-nav {
-      flex-direction: column;
-      margin:20px;
-      margin-top: 0px;
-      height: 70%;
-    }
-    .home-about {
-        margin-right: 0px;
-        width: 100%;
-        flex-grow: 1;
-        margin-bottom: 20px;
-    }
-    .home-portfolio {
-        width: 100%;
-        flex-grow: 1;
-    }
-    .home-contact {
-        margin-left: 0px;
-        width: 100%;
-        flex-grow: 1;
-        margin-top: 20px;
-    }
-    .homepage img {
-        width: 10vw;
-    }
-  }
 nav {
     min-height: 100px;
     display: flex;
@@ -254,6 +220,14 @@ nav h3 {
 .contact_body h1 {
     text-align: center;
 }
+.intro-paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.intro-paragraph img {
+    width: 65%;
+}
 .education {
     display: flex;
     flex-wrap: wrap;
@@ -284,7 +258,6 @@ nav h3 {
     margin-left: auto;
     margin-right: auto;
     max-height: 300px;
-    margin-top: 20px;
     border-radius: 20px;
     padding-bottom: 0px;
 }
@@ -439,3 +412,44 @@ nav h3 {
         font-size: 1.17em;
     }
 }
+@media only screen and (max-width: 1000px) {
+    .home-header {
+        padding: 10px;
+    }
+    .home-body {
+        margin: 20px;
+        height: 30%;
+    }
+    .home-nav {
+      flex-direction: column;
+      margin:20px;
+      margin-top: 0px;
+      height: 70%;
+    }
+    .home-about {
+        margin-right: 0px;
+        width: 100%;
+        flex-grow: 1;
+        margin-bottom: 20px;
+    }
+    .home-portfolio {
+        width: 100%;
+        flex-grow: 1;
+    }
+    .home-contact {
+        margin-left: 0px;
+        width: 100%;
+        flex-grow: 1;
+        margin-top: 20px;
+    }
+    .homepage img {
+        width: 10vw;
+    }
+    .intro-paragraph {
+        grid-template-columns: auto;
+    }
+    .intro-paragraph img {
+        margin-top: 20px;
+        width: auto;
+    }
+  }
