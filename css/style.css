@@ -1,5 +1,3 @@
-/*  || Genral Styles || */
-
 * {
     font-family: 'Inter', sans-serif;
 }
@@ -10,6 +8,9 @@
 .color-theme-home {
     background-color: #011F26;
     color: #BFB78F;
+}
+.border-theme {
+    border: #BFB78F 2px solid;
 }
 a {
     text-decoration: none;
@@ -88,7 +89,6 @@ p {
     font-weight: 300;
     font-size: 1em;
 }
-/* can delete the unused classes below */
 .homepage h1 {
     margin: 0px;
     font-weight: bold;
@@ -103,26 +103,12 @@ p {
     margin: 0px;
     font-weight: bold;
 }
-.homepage h4 {
-    margin: 0px;
-    font-size: 1em;
-    font-weight: bold;
-}
-.homepage h5 {
-    margin: 0px;
-    font-weight: bold;
-}
-.homepage h6 {
-    margin: 0px;
-    font-weight: bold;
-}
 .homepage {
     display: flex;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
 }
-/* can delete the unused classes above */
 .home-body {
     height: 25%;
     min-height: 200px;
@@ -160,7 +146,6 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: #BFB78F 2px solid;
 }
 .home-portfolio {
     width: 50vw;
@@ -169,7 +154,6 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: #BFB78F 2px solid;
 }
 /* .home-contact {
     width: 33vw;
@@ -281,7 +265,6 @@ nav h3 {
     padding: 15px;
     width: 100%;
     border-radius: 20px;
-    border: #BFB78F 2px solid;
 }
 .download img {
     max-height: 25px;
@@ -328,7 +311,6 @@ nav h3 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
     row-gap: 40px;
     column-gap: 40px;
 }
@@ -351,10 +333,7 @@ nav h3 {
     padding: 20px;
     background-position: center;
     background-color: #011F26;
-    border: #BFB78F 2px solid;
 }
-
-/* img width should be 900 and height 500 */
 #CAPS {
     background-image: url("../images/portfolio_images/caps_bg.svg");
 }
