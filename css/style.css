@@ -3,7 +3,7 @@
 }
 .color-theme {
     background-color: #011F26;
-    color: white;
+    color: #dddddd;
 }
 .color-theme-home {
     background-color: #011F26;
@@ -16,13 +16,18 @@ a {
     text-decoration: none;
 }
 a, a:link, a:visited, a:hover, a:active {
-    color: white;
+    color: #dddddd;
 }
 .homepage a, .homepage a:link, .homepage a:visited, .homepage a:hover, .homepage a:active {
     color: #BFB78F;
 }
 img {
     padding-bottom: 20px;
+}
+li {
+    font-weight: 300;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 h1 {
     display: block;
@@ -208,7 +213,7 @@ nav h3 {
     padding-right: 5vw;
     max-width: 1500px;
 }
-.contact_body h1 {
+.contact_body h1, .information h1 {
     text-align: center;
 }
 .intro-paragraph {
@@ -346,6 +351,24 @@ nav h3 {
 #CAH  {
     background-image: url("../images/portfolio_images/cah_bg.svg");
 }
+.project-overview {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.project-overview h3 {
+    color: #BFB78F;
+    font-weight: bold;
+}
+.overview-component {
+    min-width: 150px;
+    max-width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 @media only screen and (max-width: 600px) {
     .project {
         width: 375px;
@@ -379,6 +402,12 @@ nav h3 {
     }
     .contact_content img{
         padding-right: 0px;
+    }
+    .project-overview {
+        flex-direction: column;
+    }
+    .overview-component {
+        max-width: none;
     }
 }
 @media only screen and (max-width: 380px) {
