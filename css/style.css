@@ -369,6 +369,25 @@ nav h3 {
     display: flex;
     flex-direction: column;
 }
+.case-study h4 {
+    color: #BFB78F;
+    font-weight: bold;
+}
+.spaces-images-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.spaces-images-one img {
+    max-height: 400px;
+}
+.project-list {
+    list-style-position: inside;
+    list-style: circle;
+    margin: 0;
+    padding-left: 40px;
+}
 @media only screen and (max-width: 600px) {
     .project {
         width: 375px;
