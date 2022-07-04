@@ -373,13 +373,13 @@ nav h3 {
     color: #BFB78F;
     font-weight: bold;
 }
-.spaces-images-one {
+.spaces-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-.spaces-images-one img {
+.spaces-images img {
     max-height: 400px;
 }
 .project-list {
@@ -388,51 +388,10 @@ nav h3 {
     margin: 0;
     padding-left: 40px;
 }
-@media only screen and (max-width: 600px) {
-    .project {
-        width: 375px;
-        height: 375px;
-    }
-    #CAPS, #SPACES, #CAH, #CDL {
-        background-size: 375px;
-    }
-    #CAPS:hover, #SPACES:hover, #CAH:hover, #CDL:hover {
-        background-size: 400px;
-    }
-}
-@media only screen and (max-width: 750px) {
-    nav {
-        margin: 0px;
-        justify-content: space-around;
-        padding-left: 0vw;
-        padding-right: 0vw;
-    }
-    .download {
-        width: inherit;
-    }
-    .contact_body {
-        height: calc(100vh - 181.02px);
-    }
-    .contact_content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .contact_content img{
-        padding-right: 0px;
-    }
-    .project-overview {
-        flex-direction: column;
-    }
-    .overview-component {
-        max-width: none;
-    }
-}
-@media only screen and (max-width: 380px) {
-    .contact_content h2 {
-        font-size: 1.17em;
-    }
+.references {
+    list-style: none;
+    padding: 0px;
+    font-size: .83em;
 }
 @media only screen and (max-width: 1000px) {
     .home-header {
@@ -475,3 +434,54 @@ nav h3 {
         width: auto;
     }
   }
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 375px;
+        height: 375px;
+    }
+    #CAPS, #SPACES, #CAH, #CDL {
+        background-size: 375px;
+    }
+    #CAPS:hover, #SPACES:hover, #CAH:hover, #CDL:hover {
+        background-size: 400px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    nav {
+        margin: 0px;
+        justify-content: space-around;
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+    .download {
+        width: inherit;
+    }
+    .contact_body {
+        height: calc(100vh - 181.02px);
+    }
+    .contact_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact_content img{
+        padding-right: 0px;
+    }
+    .project-overview {
+        flex-direction: column;
+    }
+    .overview-component {
+        max-width: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .tall img {
+        max-height: 350px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .contact_content h2 {
+        font-size: 1.17em;
+    }
+}
