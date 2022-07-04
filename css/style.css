@@ -476,7 +476,7 @@ nav h3 {
     }
 }
 @media only screen and (max-width: 500px) {
-    .tall img {
+    .spaces-images img {
         max-height: 350px;
     }
 }
