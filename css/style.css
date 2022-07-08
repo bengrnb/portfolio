@@ -424,6 +424,10 @@ nav h3 {
 .dropdown {
     border-radius: 10px;
     border: #BFB78F 2px solid;
+    padding: 10px;
+}
+.dropdown img {
+    padding: 0px;
 }
 
 @media only screen and (max-width: 1000px) {
