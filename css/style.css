@@ -393,6 +393,39 @@ nav h3 {
     padding: 0px;
     font-size: .83em;
 }
+.persona-dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 20px;
+    margin-left: 1.33em;
+    margin-right: 1.33em;
+}
+.persona-dropdown h4 {
+    color: #dddddd;
+    font-weight: normal;
+    margin: 20px;
+}
+.persona-dropdown h2 {
+    margin: 20px;
+
+}
+.persona-toggle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dropdown {
+    border-radius: 10px;
+    border: #BFB78F 2px solid;
+}
+
 @media only screen and (max-width: 1000px) {
     .home-header {
         padding: 10px;
