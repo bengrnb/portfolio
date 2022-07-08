@@ -429,6 +429,18 @@ nav h3 {
 .dropdown img {
     padding: 0px;
 }
+.cah-graphic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+.cah-graphic img {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 20px;
+    padding: 0px;
+}
 
 @media only screen and (max-width: 1000px) {
     .home-header {
