@@ -12,6 +12,9 @@
 .border-theme {
     border: #BFB78F 2px solid;
 }
+.border-radius {
+    border-radius: 20px;
+}
 a {
     text-decoration: none;
 }
@@ -440,6 +443,18 @@ nav h3 {
     max-width: 750px;
     border-radius: 20px;
     padding: 0px;
+}
+.caps-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.caps-images img {
+    max-width: 450px;
+    max-height: 300px;
+    border-radius: 20px;
+    padding-bottom: 0px;
 }
 
 @media only screen and (max-width: 1000px) {
