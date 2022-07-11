@@ -453,7 +453,7 @@ nav h3 {
     row-gap: 20px;
 }
 .caps-images img {
-    max-width: 450px;
+    width: 450px;
     max-height: 300px;
     border-radius: 20px;
     padding-bottom: 0px;
