@@ -421,6 +421,9 @@ nav h3 {
     justify-content: space-between;
     align-items: center;
 }
+.persona-toggle:hover {
+    cursor: pointer;
+}
 .center {
     display: block;
     margin-left: auto;
