@@ -44,27 +44,27 @@ SPACES.addEventListener('click', function(){
 })
 
 
-let CDL = document.querySelector("#CDL");
-CDL.addEventListener('mouseover', function(){
-    // CDL.style.boxShadow='0px 0px 15px 0px rgba(174, 174, 174, 1)';
-    CDL.style.backgroundSize= '105%';
-})
-CDL.addEventListener('mouseout', function(){
-    // CDL.style.boxShadow='0px 0px 8px 0px rgba(227, 227, 227, 1)';
-    CDL.style.backgroundSize= '100%';
-})
-CDL.addEventListener('touchstart', function(){
-    // CDL.style.boxShadow='0px 0px 15px 0px rgba(174, 174, 174, 1)';
-    CDL.style.backgroundSize= '105%';
-})
-CDL.addEventListener('touchend', function(){
-    // CDL.style.boxShadow='0px 0px 8px 0px rgba(227, 227, 227, 1)';
-    CDL.style.backgroundSize= '100%';
-})
-CDL.addEventListener('click', function(){
-    // CDL.style.boxShadow='0px 0px 8px 0px rgba(227, 227, 227, 1)';
-    CDL.style.backgroundSize= '100%';
-})
+// let CDL = document.querySelector("#CDL");
+// CDL.addEventListener('mouseover', function(){
+//     // CDL.style.boxShadow='0px 0px 15px 0px rgba(174, 174, 174, 1)';
+//     CDL.style.backgroundSize= '105%';
+// })
+// CDL.addEventListener('mouseout', function(){
+//     // CDL.style.boxShadow='0px 0px 8px 0px rgba(227, 227, 227, 1)';
+//     CDL.style.backgroundSize= '100%';
+// })
+// CDL.addEventListener('touchstart', function(){
+//     // CDL.style.boxShadow='0px 0px 15px 0px rgba(174, 174, 174, 1)';
+//     CDL.style.backgroundSize= '105%';
+// })
+// CDL.addEventListener('touchend', function(){
+//     // CDL.style.boxShadow='0px 0px 8px 0px rgba(227, 227, 227, 1)';
+//     CDL.style.backgroundSize= '100%';
+// })
+// CDL.addEventListener('click', function(){
+//     // CDL.style.boxShadow='0px 0px 8px 0px rgba(227, 227, 227, 1)';
+//     CDL.style.backgroundSize= '100%';
+// })
 
 
 let CAH = document.querySelector("#CAH");
