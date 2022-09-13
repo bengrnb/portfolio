@@ -481,7 +481,7 @@ nav h3 {
 .before_after img {
     width: 600px;
     padding-bottom: 0px;
-    border-radius: 20px
+    border-radius: 0px
 }
 .alt {
     flex-direction: row;
